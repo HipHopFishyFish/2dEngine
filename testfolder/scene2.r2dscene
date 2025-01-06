@@ -1,0 +1,10 @@
+sceneObj player Player/player (0, 0)
+    component BoxRenderer 30 "#00FF00"
+end
+
+sceneObj cam Camera (0, 0)
+end
+
+sceneObj box sceneObj (20, 0)
+    component BoxRenderer 50 "#0000FF"
+end
