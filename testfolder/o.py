@@ -3,10 +3,8 @@ import sys
 sys.path.append(r"../")
 
 import r2d
-import sys
 from player import Player
 
-sys.path.append('../r2d')
 
 scenes = {}
 r2d.initialise()

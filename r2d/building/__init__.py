@@ -60,7 +60,7 @@ def build_file(text, imports):
 
 def build_all_files(file_list, saveto):
     imports = ["import r2d", "import sys"]
-    output = "\n\nsys.path.append('../r2d')\n\nscenes = {}\nr2d.initialise()\n\nwin = r2d.Window()\n"
+    output = "\n\nscenes = {}\nr2d.initialise()\n\nwin = r2d.Window()\n"
     for filename in file_list:
         with open(filename) as file:
             contents = file.read()
